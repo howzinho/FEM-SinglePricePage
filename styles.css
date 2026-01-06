@@ -1,3 +1,155 @@
-.title {
-    color: green;
+html{
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+button{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: 17%;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1, h2, p{
+    margin: 0.5rem;
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.6rem;
+    margin-left: 1.6rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0.75rem;
+}
+
+h2{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2rem;
+    margin-left: 1.6rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+h3{
+    color: hsl(204, 43%, 93%);
+    font-size: 1.2rem;
+    margin-left: 1.6rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+p, ul{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+    margin-left: 1.6rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+ul{
+    color: hsl(204, 43%, 93%);
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-left: 0.6rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+#white-text{
+    color: hsl(204, 43%, 93%);
+}
+
+#reg-priceid{
+    color: hsl(218, 22%, 77%);
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 2.0rem;
+    margin-left: 0.5rem;
+    margin-top: 0;
+}
+
+.pricing{
+    margin-left: 1.3rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    display: inline-block;
+    font-size: 2rem;
+    color: hsl(204, 43%, 93%);
+}
+
+.reg-price{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+.footer a {
+    color: hsl(228, 45%, 44%);
+}
+
+.main-panel{
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding-top: 10vw;
+    width: 640px;
+    height: 460px;
+    border-radius: 10px;
+}
+
+.upper-panel{
+    display: inline-block;
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lower-panel{
+    width: 100%;
+    height: 55%;
+}
+
+.right-panel{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 62%, 46%);
+    border-bottom-right-radius: 10px;
+}
+
+.left-panel{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 62%, 40%);
+    border-bottom-left-radius: 10px;
 }
