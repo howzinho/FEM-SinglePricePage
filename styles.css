@@ -33,6 +33,7 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
+    width: 100vw;
     flex-direction: column;
     font-size: 16px;
     font-family: "Karla", sans-serif;
@@ -137,19 +138,22 @@ ul {
     flex-direction: column;
     box-sizing: content-box;
     margin: 0 auto;
-    width: 640px;
-    height: 460px;
+    max-width: 640px;
+    /*height: 460px;*/
+    min-height: 460px;
     border-radius: 10px;
     overflow: clip;
 }
 
 .upper-panel {
+    flex-grow: 1;
     flex-basis: 45%;
     background-color: white;
 }
 
 .lower-panel {
     display: flex;
+    flex-grow: 1;
     /*width: 100%;*/
     flex-basis: 55%;
 }
@@ -250,5 +254,12 @@ ul {
     }
     .right-panel {
         padding-bottom: 3%;
+    }
+}
+
+@media(max-height: 660px){
+    body{
+        padding-top: 20px;
+        justify-content: flex-start;
     }
 }
