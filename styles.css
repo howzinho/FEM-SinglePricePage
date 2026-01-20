@@ -160,8 +160,14 @@ ul {
 }
 
 .left-panel {
+    display: flex;
+    flex-direction: column;
     flex-basis: 50%;
     background-color: hsl(179, 62%, 40%);
+}
+
+.left-panel-sub{
+    flex-grow: 1;
 }
 
 @media (max-width: 660px) {
